@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  position: relative;
+}
+
+.shadowDown {
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 30%);
+}
+
+.todoBtn {
+  width: 8  0px;
+}
+
+.rowElement {
+  border-left: 1px solid #ddd;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.addRow {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
