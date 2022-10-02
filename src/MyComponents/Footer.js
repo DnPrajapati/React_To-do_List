@@ -4,9 +4,10 @@ export default function Footer() {
   let FooterStyle = {
     position: 'absolute',
     bottom: '0px',
+    marginBottom: '0px',
     width: '100%',
-    backgroundColor: 'black',
-    color: 'white',
+    backgroundColor: '#4c4238',
+    color: '#edede9',
     padding: '10px',
   };
 return (

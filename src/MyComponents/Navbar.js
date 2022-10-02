@@ -6,7 +6,7 @@ export default function Navbar(props) {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg Navbar">
         <div className="container-fluid">
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@ export default function Navbar(props) {
             </ul>
             <form className="d-flex">
               <input className="form-control me-2" name='Search' placeholder='Search' />
-              <button className="btn btn-outline-success" type='search'>Search</button>
+              <button className="btn btn-outline-dark" type='search'>Search</button>
             </form>
           </div>
         </div>

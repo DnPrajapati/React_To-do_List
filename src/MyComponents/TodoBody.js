@@ -32,8 +32,8 @@ export default function TodoBody(props) {
   
   return (
     <div className="TodoBody">
-      <h2 className="my-5">Todo-List </h2>
-      <div className="row align-item-center py-3 mx-0 bg-dark text-light shadowDown">
+      <h2 className="my-5 title">Todo-List </h2>
+      <div className="row align-item-center py-3 mx-0 h5 shadowDown Navbar">
         <div className="col-3 align-self-center">
           <b>Title</b>
         </div>

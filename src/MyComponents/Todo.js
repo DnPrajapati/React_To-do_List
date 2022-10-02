@@ -30,7 +30,7 @@ export default function Todo(props) {
 
     return (
         <>{showEdit ?
-            <div className='row align-item-center py-0 mx-0 shadowDown'>
+            <div className='row align-item-center py-0 mx-0 shadowDown subRaw'>
                 <div className='col-3 align-self-center rowElement'>
                     <input className="form-control me-2" name='title' placeholder='Title' value={editTitle} onChange={(e) => setEditTitle(e.target.value)} autoFocus/>
                 </div>
@@ -43,7 +43,7 @@ export default function Todo(props) {
                 </div>
             </div>
             :
-            <div className='row align-item-center py-0 mx-0 shadowDown'>
+            <div className='row align-item-center py-0 mx-0 shadowDown subRaw'>
                 <div className='col-3 align-self-center rowElement'>{props.todo.title}</div>
                 <div className='col-7 align-self-center rowElement'>{props.todo.Describe}</div>
                 <div className='col-2 align-self-center rowElement'>
