@@ -2,7 +2,7 @@
 # To-Do List
 This app is created by using
 - HTML
-- CSS/Bootstrep
+- CSS/Bootstrap
 - JavaScript
 - React JS
 
